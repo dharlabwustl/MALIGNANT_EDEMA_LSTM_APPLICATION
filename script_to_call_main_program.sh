@@ -14,3 +14,4 @@ input=$XNAT_HOST ##"one::two::three::four"
 echo XNAT_HOST::$XNAT_HOST
 # Check if '::' is present
 echo ${XNAT_USER}::${XNAT_PASS}::${TYPE_OF_PROGRAM}::${XNAT_HOST}::${REDCAP_API}
+/software/call_apply_model.sh
